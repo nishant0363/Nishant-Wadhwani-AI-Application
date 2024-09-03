@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <style>
 	
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
+	body {
+    	font-family: Arial, sans-serif;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	margin: 0;
+    	padding: 0;
+	}
 
         header {
             width: 56%;
@@ -125,8 +125,21 @@
             font-weight: bold;
         }
 
-
+        .grey-box-content-4 {
+            flex: 1;
+            padding-right: 1px;
+            max-width: 1%;
+            font-size: 1px;
+        }
 	
+	.grey-box-video {
+    	    display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: 99%;
+     	    margin-right: 22px;
+	}
 
 	.grey-box-pdf {
     	    display: flex;
@@ -180,6 +193,18 @@
             color: black;
             font-weight: bold;
         }
+
+        .bluu-text {
+            color: navy;
+            font-size: 29px;
+            font-weight: bold;
+        }
+        .blu-text {
+            color: blue;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
 
 	.Dblue-text {
             color: navy;
@@ -278,7 +303,7 @@
         </div>
 
 	<div class="link-box" >
-            <a href="#grey-box-pdf" class="no-underline">Crops identification and classification using CV2 Python Library</a>
+            <a href="#grey-box-pdf4" class="no-underline">Crops Identification and Classification using CV2 Python Library</a>
         </div>
 	<div class="link-box" >
             <a href="#grey-box-pdf3" class="no-underline">Crops Nutrients Prediction - Project at ISRO</a>
@@ -334,9 +359,32 @@
 </div>
     <!-- Add an id to this div to create a target for the anchor link -->
     <div class="grey-box-pdf-3" >
-        <br>
+        <p><span class="blu-text">Project at Space Application Center ISRO</p>
         <!-- Set the src attribute to display the PDF by default -->
         <iframe id="pdf-viewer" src="ISRO - NISHANT - Hyperspectral.pdf#toolbar=0" width="760px" height="490px" frameborder="0" allowfullscreen></iframe>
+        <br>
+        <br>
+    </div>
+</div>
+
+<p id="grey-box-pdf4">
+        <br>
+	<br>
+</p>
+<div class="grey-box">
+    <div class="grey-box-content-4">
+        <!-- You can add any content here for styling or information purposes -->
+    </div>
+    
+    <!-- Add an id to this div to create a target for the anchor link -->
+    <div class="grey-box-video">
+        <p><span class="bluu-text">Crops classification using CV2 Python Library</p>
+        <!-- Video player to replace the PDF viewer -->
+        <video id="video-player" width="750px" height="470px" controls>
+            <source src="Crop Id CV2 Python Project.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <br>
         <br>
         <br>
     </div>
