@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.grey-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 2px auto;
+    width: 56%;
+    box-sizing: border-box;
+}
+
+.link-box-1, .link-box-2 {
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #007bff;
+    margin: 8px 0;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.link-box-1:hover, .link-box-2:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #0056b3;
+}
+
+a.no-underline {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a.no-underline:hover {
+    color: #ffffff;
+}
+
+.highlight {
+    color: Maroon;
+    font-weight: bold;
+}
+
+.black-text {
+    color: black;
+    font-weight: bold;
+}
+
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+.logo {
+    height: 85px;
+    margin: 10px;
+}
+
+.navy-text {
+    color: navy;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.grey-box-1-content, .grey-box-2-content {
+    flex: 1;
+    padding-right: 5px;
+    max-width: 37%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.grey-box-1-image, .grey-box-2-pdf {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 70%;
+}
+
+.grey-box-1-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.grey-box-2-pdf iframe {
+    width: 525px; 
+    height: 420px;
+    border: none;
+    max-width: 90%;
+}
+
+.grey-box-for-3-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 2px auto;
+    width: 56%;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.grey-box-3-pdf, .grey-box-4-video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-box-3-pdf iframe {
+    width: 779px; 
+    height: 500px;
+    border: none;
+}
+
+.grey-box-video video {
+    margin: 2px auto;
+    width: 100%;
+    height: auto;
+}
